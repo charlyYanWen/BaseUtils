@@ -17,7 +17,7 @@ public class TimeUtilsTest {
      */
     @Test
     void test(){
-        LocalDateTime time = LocalDateTimeUtils.strToLocalDateTime("2022-03-23 17:30:00");
-        System.out.println("time =="+time);
+        LocalDateTime times = LocalDateTimeUtils.strToLocalDateTime("2022-03-23 17:30:00");
+        System.out.println("times =="+times);
     }
 }
